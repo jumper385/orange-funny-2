@@ -27,18 +27,16 @@ jobs:
       
       - name: info script run
         run: uname -a > ${{ matrix.os }}_version.txt
-      
-      - name: Install TexLive Full
-        run: sudo apt-get update && sudo apt-get install -y texlive-full
-      
-      - name: Build PDF
-        run: |
-          latexmk -f -pdf -output-directory=output main.tex
+
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: main.tex
       
       - name: save to artifact
         uses: actions/upload-artifact@v4
         with:
-          path: output/main.pdf
+          path: main.pdf
           name: proof.pdf
 
   bump-version:
