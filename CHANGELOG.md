@@ -1,3 +1,9 @@
+## 0.0.6 (2024-12-09)
+
+### Fix
+
+- **main.tex**: refine conclusion and clarify gifting context for fruits
+
 ## 0.0.5 (2024-12-09)
 
 ### Fix
