@@ -1,3 +1,11 @@
+## 0.0.8 (2024-12-09)
+
+### Fix
+
+- streamline LaTeX document compilation in GitHub Actions workflow
+- add GitHub Actions workflow for LaTeX document build and PDF upload
+- **main.tex**: improve clarity in conclusion regarding gifting other fruits
+
 ## 0.0.7 (2024-12-09)
 
 ### Fix
