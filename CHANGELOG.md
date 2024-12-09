@@ -1,3 +1,11 @@
+## 0.0.10 (2024-12-09)
+
+### Fix
+
+- rename workflow to 'Build and Release the LaTeX Document' and simplify OS configuration
+- update GitHub Actions workflow to exclude 'staging' branch from LaTeX document build
+- **main.tex**: correct typos and improve phrasing in cultural context section
+
 ## 0.0.9 (2024-12-09)
 
 ### Fix
