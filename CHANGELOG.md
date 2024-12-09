@@ -1,3 +1,9 @@
+## 0.0.9 (2024-12-09)
+
+### Fix
+
+- **main.tex**: correct capitalization and typos for "Chinese"
+
 ## 0.0.8 (2024-12-09)
 
 ### Fix
