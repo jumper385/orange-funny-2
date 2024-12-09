@@ -1,84 +1,38 @@
-## 0.5.5 (2024-12-04)
+## 0.0.7 (2024-12-09)
 
 ### Fix
 
-- **release.yml**: reorganize artifact download steps and append version to filenames
-- **release.yml**: remove duplicate artifact download steps and improve workflow clarity
+- **main.tex**: update title to clarify acceptable quantities of fruits for Chinese gifts
 
-## 0.5.4 (2024-12-04)
-
-### Fix
-
-- **release.yml**: update output file naming and artifact handling in release workflow
-
-## 0.5.3 (2024-12-04)
+## 0.0.6 (2024-12-09)
 
 ### Fix
 
-- **release.yml**: update output file naming in info script and artifact upload
-- **release.yml**: correct path parameter in upload-artifact action
-- **release.yml**: add dependency for bump-version job on generate-sys-files
-- **release.yml**: update upload-artifact action to version 4 in release workflow
+- **main.tex**: refine conclusion and clarify gifting context for fruits
 
-## 0.5.2 (2024-12-04)
+## 0.0.5 (2024-12-09)
 
 ### Fix
 
-- **release.yml**: redirect output of main.py to os_version.txt and include python_version.txt in release files
+- **ref.bib**: remove outdated references related to cultural significance of fruits
+- **main.tex**: remove citations and clean up LaTeX document on cultural significance of fruits
+- **release.yml**: add TexLive installation and PDF build step to release workflow
 
-## 0.5.1 (2024-12-04)
-
-### Fix
-
-- **release.yml**: add step to capture Python version in workflow
-- **release.yml**: update script execution to use main.py instead of info.py
-- **main.py**: add shorthand flags for os and python version arguments
-
-## 0.5.0 (2024-12-04)
-
-### Feat
-
-- **main.py**: add CLI to print OS and Python versions
+## 0.0.4 (2024-12-09)
 
 ### Fix
 
-- **release.yml**: change trigger branch from main to staging for version bump
-- **release.yml**: update GitHub token to use GITHUB_TOKEN and enable push for changelog generation
-- **release.yml**: update GitHub token to use PERSONAL_ACCESS_TOKEN for changelog generation
-- **release.yml**: update GitHub token to use DEPLOY_KEY for changelog generation
-- **release.yml**: added os and python ver printout on script
+- **ref.bib**: include references for cultural significance of fruits and related topics
 
-## 0.4.0 (2024-12-01)
-
-### Feat
-
-- **release.yml**: added os release on seperate branch tot est pull req's
-
-## 0.3.1 (2024-12-01)
-
-### Refactor
-
-- **release.yml**: add newlines for better readability in workflow steps
-
-## 0.3.0 (2024-12-01)
-
-### Feat
-
-- **release.yml**: added release file w/ printout as archive
+## 0.0.3 (2024-12-09)
 
 ### Fix
 
-- **release.yml**: fixing release syntax problem
-- **release.yml**: update action-gh-release to v2 and correct file input syntax
+- **main.tex**: add initial LaTeX document on ideal quantities of fruits in Chinese gifts
 
-## 0.2.0 (2024-12-01)
+## 0.0.2 (2024-12-09)
 
-### Feat
+### Fix
 
-- **release.yml**: adding release build
-
-## 0.1.0 (2024-12-01)
-
-### Feat
-
-- **README.md**: updated docs
+- **release.yml**: update release workflow to run only on Ubuntu
+- first commit
