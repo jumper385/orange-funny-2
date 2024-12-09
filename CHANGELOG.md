@@ -1,3 +1,9 @@
+## 0.0.4 (2024-12-09)
+
+### Fix
+
+- **ref.bib**: include references for cultural significance of fruits and related topics
+
 ## 0.0.3 (2024-12-09)
 
 ### Fix
