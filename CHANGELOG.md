@@ -1,3 +1,9 @@
+## 0.0.7 (2024-12-09)
+
+### Fix
+
+- **main.tex**: update title to clarify acceptable quantities of fruits for Chinese gifts
+
 ## 0.0.6 (2024-12-09)
 
 ### Fix
