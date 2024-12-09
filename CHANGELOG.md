@@ -1,3 +1,11 @@
+## 0.0.5 (2024-12-09)
+
+### Fix
+
+- **ref.bib**: remove outdated references related to cultural significance of fruits
+- **main.tex**: remove citations and clean up LaTeX document on cultural significance of fruits
+- **release.yml**: add TexLive installation and PDF build step to release workflow
+
 ## 0.0.4 (2024-12-09)
 
 ### Fix
